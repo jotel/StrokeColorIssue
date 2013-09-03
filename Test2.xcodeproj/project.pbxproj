@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		363529CE17D696150074784C /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 363529CD17D696150074784C /* MyView.m */; };
+		363529D017D69BC10074784C /* Test2-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 363529CF17D69BC10074784C /* Test2-Info.plist */; };
 		3660CDC51725E1B900D48AD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3660CDC41725E1B900D48AD2 /* UIKit.framework */; };
 		3660CDC71725E1B900D48AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3660CDC61725E1B900D48AD2 /* Foundation.framework */; };
 		3660CDC91725E1B900D48AD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3660CDC81725E1B900D48AD2 /* CoreGraphics.framework */; };
@@ -18,29 +20,16 @@
 		3660CDDB1725E1B900D48AD2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3660CDDA1725E1B900D48AD2 /* Default-568h@2x.png */; };
 		3660CDDE1725E1B900D48AD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3660CDDD1725E1B900D48AD2 /* ViewController.m */; };
 		3660CDE11725E1B900D48AD2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3660CDDF1725E1B900D48AD2 /* ViewController.xib */; };
-		3660CDE91725E1B900D48AD2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3660CDE81725E1B900D48AD2 /* SenTestingKit.framework */; };
-		3660CDEA1725E1B900D48AD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3660CDC41725E1B900D48AD2 /* UIKit.framework */; };
-		3660CDEB1725E1B900D48AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3660CDC61725E1B900D48AD2 /* Foundation.framework */; };
-		3660CDF31725E1B900D48AD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3660CDF11725E1B900D48AD2 /* InfoPlist.strings */; };
-		3660CDF61725E1B900D48AD2 /* Test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3660CDF51725E1B900D48AD2 /* Test2Tests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3660CDEC1725E1B900D48AD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3660CDB91725E1B900D48AD2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3660CDC01725E1B900D48AD2;
-			remoteInfo = Test2;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		363529CC17D696150074784C /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		363529CD17D696150074784C /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		363529CF17D69BC10074784C /* Test2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Test2-Info.plist"; sourceTree = "<group>"; };
 		3660CDC11725E1B900D48AD2 /* Test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3660CDC41725E1B900D48AD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3660CDC61725E1B900D48AD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3660CDC81725E1B900D48AD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3660CDCC1725E1B900D48AD2 /* Test2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test2-Info.plist"; sourceTree = "<group>"; };
 		3660CDCE1725E1B900D48AD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3660CDD01725E1B900D48AD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3660CDD21725E1B900D48AD2 /* Test2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test2-Prefix.pch"; sourceTree = "<group>"; };
@@ -52,12 +41,6 @@
 		3660CDDC1725E1B900D48AD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3660CDDD1725E1B900D48AD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3660CDE01725E1B900D48AD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		3660CDE71725E1B900D48AD2 /* Test2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3660CDE81725E1B900D48AD2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3660CDF01725E1B900D48AD2 /* Test2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test2Tests-Info.plist"; sourceTree = "<group>"; };
-		3660CDF21725E1B900D48AD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3660CDF41725E1B900D48AD2 /* Test2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2Tests.h; sourceTree = "<group>"; };
-		3660CDF51725E1B900D48AD2 /* Test2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,16 +54,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3660CDE31725E1B900D48AD2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3660CDE91725E1B900D48AD2 /* SenTestingKit.framework in Frameworks */,
-				3660CDEA1725E1B900D48AD2 /* UIKit.framework in Frameworks */,
-				3660CDEB1725E1B900D48AD2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				3660CDCA1725E1B900D48AD2 /* Test2 */,
-				3660CDEE1725E1B900D48AD2 /* Test2Tests */,
 				3660CDC31725E1B900D48AD2 /* Frameworks */,
 				3660CDC21725E1B900D48AD2 /* Products */,
 			);
@@ -98,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				3660CDC11725E1B900D48AD2 /* Test2.app */,
-				3660CDE71725E1B900D48AD2 /* Test2Tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,7 +80,6 @@
 				3660CDC41725E1B900D48AD2 /* UIKit.framework */,
 				3660CDC61725E1B900D48AD2 /* Foundation.framework */,
 				3660CDC81725E1B900D48AD2 /* CoreGraphics.framework */,
-				3660CDE81725E1B900D48AD2 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +92,8 @@
 				3660CDDC1725E1B900D48AD2 /* ViewController.h */,
 				3660CDDD1725E1B900D48AD2 /* ViewController.m */,
 				3660CDDF1725E1B900D48AD2 /* ViewController.xib */,
+				363529CC17D696150074784C /* MyView.h */,
+				363529CD17D696150074784C /* MyView.m */,
 				3660CDCB1725E1B900D48AD2 /* Supporting Files */,
 			);
 			path = Test2;
@@ -130,32 +102,13 @@
 		3660CDCB1725E1B900D48AD2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3660CDCC1725E1B900D48AD2 /* Test2-Info.plist */,
+				363529CF17D69BC10074784C /* Test2-Info.plist */,
 				3660CDCD1725E1B900D48AD2 /* InfoPlist.strings */,
 				3660CDD01725E1B900D48AD2 /* main.m */,
 				3660CDD21725E1B900D48AD2 /* Test2-Prefix.pch */,
 				3660CDD61725E1B900D48AD2 /* Default.png */,
 				3660CDD81725E1B900D48AD2 /* Default@2x.png */,
 				3660CDDA1725E1B900D48AD2 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3660CDEE1725E1B900D48AD2 /* Test2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				3660CDF41725E1B900D48AD2 /* Test2Tests.h */,
-				3660CDF51725E1B900D48AD2 /* Test2Tests.m */,
-				3660CDEF1725E1B900D48AD2 /* Supporting Files */,
-			);
-			path = Test2Tests;
-			sourceTree = "<group>";
-		};
-		3660CDEF1725E1B900D48AD2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3660CDF01725E1B900D48AD2 /* Test2Tests-Info.plist */,
-				3660CDF11725E1B900D48AD2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,25 +133,6 @@
 			productReference = 3660CDC11725E1B900D48AD2 /* Test2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3660CDE61725E1B900D48AD2 /* Test2Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3660CDFC1725E1B900D48AD2 /* Build configuration list for PBXNativeTarget "Test2Tests" */;
-			buildPhases = (
-				3660CDE21725E1B900D48AD2 /* Sources */,
-				3660CDE31725E1B900D48AD2 /* Frameworks */,
-				3660CDE41725E1B900D48AD2 /* Resources */,
-				3660CDE51725E1B900D48AD2 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3660CDED1725E1B900D48AD2 /* PBXTargetDependency */,
-			);
-			name = Test2Tests;
-			productName = Test2Tests;
-			productReference = 3660CDE71725E1B900D48AD2 /* Test2Tests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -221,7 +155,6 @@
 			projectRoot = "";
 			targets = (
 				3660CDC01725E1B900D48AD2 /* Test2 */,
-				3660CDE61725E1B900D48AD2 /* Test2Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3660CDCF1725E1B900D48AD2 /* InfoPlist.strings in Resources */,
+				363529D017D69BC10074784C /* Test2-Info.plist in Resources */,
 				3660CDD71725E1B900D48AD2 /* Default.png in Resources */,
 				3660CDD91725E1B900D48AD2 /* Default@2x.png in Resources */,
 				3660CDDB1725E1B900D48AD2 /* Default-568h@2x.png in Resources */,
@@ -239,60 +173,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3660CDE41725E1B900D48AD2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3660CDF31725E1B900D48AD2 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3660CDE51725E1B900D48AD2 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3660CDBD1725E1B900D48AD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				363529CE17D696150074784C /* MyView.m in Sources */,
 				3660CDD11725E1B900D48AD2 /* main.m in Sources */,
 				3660CDD51725E1B900D48AD2 /* AppDelegate.m in Sources */,
 				3660CDDE1725E1B900D48AD2 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3660CDE21725E1B900D48AD2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3660CDF61725E1B900D48AD2 /* Test2Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3660CDED1725E1B900D48AD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3660CDC01725E1B900D48AD2 /* Test2 */;
-			targetProxy = 3660CDEC1725E1B900D48AD2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3660CDCD1725E1B900D48AD2 /* InfoPlist.strings */ = {
@@ -309,14 +204,6 @@
 				3660CDE01725E1B900D48AD2 /* en */,
 			);
 			name = ViewController.xib;
-			sourceTree = "<group>";
-		};
-		3660CDF11725E1B900D48AD2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3660CDF21725E1B900D48AD2 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -379,6 +266,7 @@
 		3660CDFA1725E1B900D48AD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Test2/Test2-Prefix.pch";
 				INFOPLIST_FILE = "Test2/Test2-Info.plist";
@@ -390,45 +278,12 @@
 		3660CDFB1725E1B900D48AD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Test2/Test2-Prefix.pch";
 				INFOPLIST_FILE = "Test2/Test2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		3660CDFD1725E1B900D48AD2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Test2.app/Test2";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Test2/Test2-Prefix.pch";
-				INFOPLIST_FILE = "Test2Tests/Test2Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		3660CDFE1725E1B900D48AD2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Test2.app/Test2";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Test2/Test2-Prefix.pch";
-				INFOPLIST_FILE = "Test2Tests/Test2Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -451,14 +306,7 @@
 				3660CDFB1725E1B900D48AD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		3660CDFC1725E1B900D48AD2 /* Build configuration list for PBXNativeTarget "Test2Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3660CDFD1725E1B900D48AD2 /* Debug */,
-				3660CDFE1725E1B900D48AD2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
