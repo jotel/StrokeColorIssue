@@ -21,12 +21,12 @@
 
 - (void)drawRect:(CGRect)rect
 {
-    UIFont *font = [UIFont fontWithName: @"Verdana" size: 150];
+    UIFont *font = [UIFont fontWithName: @"Helvetica-Bold" size: 100];
     
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     CGContextSaveGState(ctx);
     CGContextSetTextDrawingMode(ctx, kCGTextFillStroke);
-    
+
     CGContextSetFillColorWithColor(ctx, [[UIColor yellowColor] CGColor]);
     CGContextSetShadowWithColor(ctx, CGSizeMake(5.0, 5.0), 5.0, [[UIColor grayColor] CGColor]);
     
